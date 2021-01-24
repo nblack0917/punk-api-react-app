@@ -19,6 +19,7 @@ class App extends Component {
       .then( res => {
         const arrayOfBeer = res.data
         this.setState({ arrayOfBeer })
+        console.log(this.state.arrayOfBeer)
       })
   }
 
